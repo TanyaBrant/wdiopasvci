@@ -60,7 +60,7 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
     jobs:
       - build-and-test
   # Below is the definition of your workflow.
